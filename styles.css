@@ -1,0 +1,40 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#video-tela {
+    position: absolute;
+    top: 0;
+    left: 322px;
+    width: 522px;
+    height: 365px;
+    object-fit: cover;
+    z-index: 0; 
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    z-index: 1; 
+}
+
+#imagem-desligado {
+    z-index: 2; 
+}
+
+map area {
+    position: absolute;
+    cursor: pointer;
+    z-index: 3; 
+} 
+

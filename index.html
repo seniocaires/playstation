@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <img id="imagem-ligado" src="/imagens/ligado.png" alt="Ligado" usemap="#map-imagem">
+    <img id="imagem-desligado" src="/imagens/desligado.png" alt="Desligado" usemap="#map-imagem">
+    
+    <video id="video-tela" src="/videos/desligado.mp4" muted loop></video>
+
+    <map name="map-imagem">
+        <area id="area-power" target="" alt="Ligar/Desligar" title="Ligar/Desligar" href="#" coords="103,620,115,622,132,621,149,617,168,609,181,597,187,587,188,575,181,568,167,566,152,565,132,568,118,571,102,585,91,598,91,611" shape="poly">
+        <area id="area-reset" target="" alt="Reset" title="Reset" href="#" coords="187,547,200,546,211,538,212,526,199,524,182,530,174,535,177,543" shape="poly">
+        <area id="tela" alt="Tela" title="" coords="338,0,335,21,334,47,334,99,335,150,337,191,342,231,346,265,352,296,355,313,380,320,432,331,484,337,534,342,597,349,659,354,716,357,774,360,796,361,811,279,821,214,829,160,838,83,842,35,848,2" shape="poly">
+   
+    </map>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
